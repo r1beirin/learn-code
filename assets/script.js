@@ -29,6 +29,10 @@ const pages = {
     useCases(){
         pdf.setAttribute("src", "docs/Documento_Especificacao_Casos_de_Uso.pdf")
         esconder()
+    },
+    lofi(){
+        pdf.setAttribute("src", "docs/Protótipo de baixa fidelidade.pdf")
+        esconder()
     }
 }
 
